@@ -7,3 +7,7 @@ This is meant to be a handy little tool if you're staring at something for the f
 Add this function in your project directory somewhere/add its path in your script. 
 
 To use: `depList = depcheck('scriptName.m')`. This returns a list of the functions/files required to run `scriptName.m`.
+
+## NOTE:
+
+Still a work in progress as of 3/6/18.
