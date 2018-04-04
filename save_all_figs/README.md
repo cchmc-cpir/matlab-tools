@@ -5,6 +5,6 @@ figure('Name','Descriptive Figure Name')
 
 ## Usage
 
-save_all_figs() saves every figure open in Matlab as a .fig in the current path
-save_all_figs('Folder',path) saves every figure as a .fig in the path specified (it will create folders if need be)
-save_all_figs('FileType','-djpeg') saves every figure as both a .fig and the specified image type, in this case .jpeg.
+* save_all_figs() saves every figure open in Matlab as a .fig in the current path
+* save_all_figs('Folder',path) saves every figure as a .fig in the path specified (it will create folders if need be)
+* save_all_figs('FileType','-djpeg') saves every figure as both a .fig and the specified image type, in this case .jpeg.
