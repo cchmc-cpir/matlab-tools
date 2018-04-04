@@ -12,3 +12,4 @@ Be sure to update the section below if you add something new.
   * `yaml-matlab` - functions to read/write YAML files, which are very useful for input files, etc. due to their readability
   * 'TiffDicomWrite' - function to write a 3D matrix of doubles to a stack of tiff images and a DICOM file
   * 'save_all_figs' - function to save every figure currently open in matlab
+  * 'Optimum_Angle' - Calculates optimal flip angle for radial HP gas imaging given number of excitations
