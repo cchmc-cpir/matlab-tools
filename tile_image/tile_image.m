@@ -12,6 +12,13 @@ function Tiled_Image = tile_image(Image,Dimension,varargin)
 %'ZeroOffset' - Make the added blank matrices a value other than zero
 %'StartIndex' - Start the tiling at a certain slice
 %'EndIndex' - End the tiling at a certain slice
+
+
+%Make sure that dimension was passed correctly:
+if Dimension ~= 1 && Dimension ~= 2 && Dimension ~=3
+    display('Error: Dimension must equal 1, 2, or 3');
+    return;
+end
 %I'm only going to care about the magnitude (most likely) when calling this
 %function, so let's do that here
 Image = abs(Image);
@@ -19,6 +26,7 @@ Image = abs(Image);
 ImageSize = size(Image);
 StartIndex = 1;
 EndIndex = ImageSize(Dimension);
+
 
 %Declare these variables
 nRows = 0;
