@@ -1,0 +1,9 @@
+README
+Author: Jinbang
+MATLAB function getRawData_bruker(todaysDirectory,runNumber);
+
+Purpose: Pulls raw data directly from 7T Bruker system
+
+Must change variables "todaysDirectory" and "runNumber" before running.
+
+README needs updated
