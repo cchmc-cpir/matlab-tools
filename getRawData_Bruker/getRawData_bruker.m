@@ -27,6 +27,8 @@ remotePath=strcat(['/opt/PV6.0/data/CPIR2/',todaysDirectory,'/',num2str(runNumbe
 % localPath=strcat([char(pwd),'\importedData\']);
 % remotePath='/opt/DICOM/FAC450/PeterPhantoms';
 localPath='/home/cleveland/Desktop/getRawData_bruker/importedData/';
+
+%% IP Address needs confirmed!!
 source='10.8.1.207';
 
 a=sprintf('Connecting to remote host %s',source);disp(a); % NOTIFY OF SEARCH
